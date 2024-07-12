@@ -1,5 +1,5 @@
 # .gitbook.yaml
-root: ./docs
+root: ./
 
 structure:
   readme: README.md
