@@ -1,0 +1,29 @@
+# .gitbook.yaml
+root: ./docs
+
+structure:
+  readme: README.md
+  summary: SUMMARY.md
+  glossary: GLOSSARY.md
+
+language:
+  en: ./docs/en
+  th: ./docs/th
+
+plugins:
+  - search-pro
+
+links:
+  sidebar:
+    - title: Home
+      path: /
+    - title: ภาษาไทย
+      path: /th/
+
+variables:
+  title: My GitBook
+  description: Multi-language GitBook example
+  authors: "Your Name"
+
+output:
+  clean: true
