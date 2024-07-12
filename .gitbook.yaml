@@ -7,8 +7,8 @@ structure:
   glossary: GLOSSARY.md
 
 language:
-  en: ./docs/en
-  th: ./docs/th
+  en: ./en
+  th: ./th
 
 plugins:
   - search-pro
