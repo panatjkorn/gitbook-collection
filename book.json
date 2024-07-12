@@ -1,0 +1,23 @@
+{
+    "title": "My Project Documentation",
+    "author": "Author Name",
+    "language": "en",
+    "plugins": ["language-picker"],
+    "pluginsConfig": {
+        "language-picker": {
+          "languages": [
+            {
+              "label": "English",
+              "lang": "en",
+              "path": "/en/"
+            },
+            {
+              "label": "ภาษาไทย",
+              "lang": "th",
+              "path": "/th/"
+            }
+          ]
+        }
+    }
+  }
+  
