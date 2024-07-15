@@ -2,7 +2,25 @@
     "title": "My Project Documentation",
     "author": "Author Name",
     "language": "en",
+    "root": ".",
+    "structure": {
+      "readme": "README.md"
+    },
     "plugins": ["language-picker"],
+    "variables": {
+    "languages": [
+        {
+          "label": "English",
+          "lang": "en",
+          "path": "/en/"
+        },
+        {
+          "label": "Thai",
+          "lang": "th",
+          "path": "/th/"
+        }
+      ]
+    },
     "pluginsConfig": {
         "language-picker": {
           "languages": [
